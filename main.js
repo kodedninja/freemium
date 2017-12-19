@@ -3,6 +3,7 @@ var config = { attributes: true, childList: true };
 
 var callback = function() {
 	filter(document.querySelectorAll('.heroGrid-largeCard'));
+	filter(document.querySelectorAll('.heroGrid-mediumCard'));
 	filter(document.querySelectorAll('.heroGrid-smallCard'));
 	filter(document.querySelectorAll('.heroGrid-compact'));
 	filter(document.querySelectorAll('.u-size6of12'));
