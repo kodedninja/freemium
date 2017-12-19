@@ -3,6 +3,6 @@
 # freemium
 Firefox and Chrome addon that removes premium articles from Medium
 
-Remove premium articles from Medium and replace them with whitespace (because even that's better than forcing you to see premium articles...).
+Remove premium articles from Medium and replace them with whitespace (because even that's better than forcing you to see premium articles).
 
-### Not published yet
+### [Add it to Firefox](https://addons.mozilla.org/en-US/firefox/addon/freemium/)
