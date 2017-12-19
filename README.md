@@ -1,3 +1,5 @@
+<img src="icons/96x96.png">
+
 # freemium
 Firefox addon that removes premium articles from Medium
 
