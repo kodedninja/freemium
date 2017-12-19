@@ -1,7 +1,7 @@
 var targetNode = document.body;
 var config = { attributes: true, childList: true };
 
-var callback = function(mutationsList) {
+var callback = function() {
 	filter(document.querySelectorAll('.heroGrid-largeCard'));
 	filter(document.querySelectorAll('.heroGrid-smallCard'));
 	filter(document.querySelectorAll('.heroGrid-compact'));
@@ -10,7 +10,6 @@ var callback = function(mutationsList) {
 };
 
 var observer = new MutationObserver(callback);
-
 observer.observe(targetNode, config);
 
 function filter(elements) {
