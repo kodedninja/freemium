@@ -6,7 +6,8 @@
 	"description": "Remove premium articles from Medium",
 
 	"icons": {
-		"48": "icons/border-48.png"
+		"48": "icons/48x48.png",
+		"96": "icons/96x96.png"
 	},
 
 	"content_scripts": [
