@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Freemium",
+	"version": "0.1.0",
+
+	"description": "Remove premium posts from Medium",
+
+	"icons": {
+		"48": "icons/border-48.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://medium.com/*"],
+			"js": ["main.js"]
+		}
+	]
+}
