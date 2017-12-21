@@ -24,13 +24,9 @@ a:not(.nbb) {
 
 /* Typography */
 
-h1, h2, h3 {
-	font-family: 'helvetica neue', helvetica, sans-serif;
-}
-
-h1, .f1 { font-size: 3rem; font-family: 'helvetica neue', helvetica, sans-serif; }
-h2, .f2 { font-size: 2.25rem; font-family: 'helvetica neue', helvetica, sans-serif; }
-h3, .f3 { font-size: 1.5rem; font-family: 'helvetica neue', helvetica, sans-serif; }
+h1, .f1 { font-size: 3rem; }
+h2, .f2 { font-size: 2.25rem; }
+h3, .f3 { font-size: 1.5rem; }
 .f4 { font-size: 1.25rem; }
 .f5 { font-size: 1rem; }
 .f6 { font-size: .875rem; }
@@ -85,6 +81,7 @@ code {
 .fr { float: right; }
 .fn { float: none; }
 
+.c15 { width: 15%; }
 .c20 { width: 20%; }
 .c25 { width: 25%; }
 .c40 { width: 40%; }

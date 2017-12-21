@@ -2,9 +2,33 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<title>Freemium</title>
+
+		 <link href="https://fonts.googleapis.com/css?family=Quattrocento:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="ff.css">
+		<link rel="stylesheet" href="index.css">
 	</head>
 	<body>
+		<div class="db c100 p2">
+			<a href="/" class="dib nbb title mt3">F</a>
+			<div class="f2 db tac fwb">Remove premium articles from Medium.</div>
+			<a href="https://addons.mozilla.org/firefox/downloads/file/817241/freemium-0.1.1-an+fx.xpi?src=dp-btn-primary" target="_blank" class="button dib f4 fwb tac nbb c15 m-c100 p1 mt2">Add to Firefox</a>
+			<div class="db tac c100 my1">available on <a href="#" target="_blank" class="other">Chrome</a></div>
+		</div>
 
+		<script>
+			if (navigator.userAgent.indexOf('Chrome') != -1) {
+				var button = document.querySelector('.button');
+				var link = document.querySelector('.other');
+
+				button.innerHTML = 'Add to Chrome';
+				button.href = '';
+
+				link.innerHTML = 'Firefox';
+				link.href = 'https://addons.mozilla.org/firefox/downloads/file/817241/freemium-0.1.1-an+fx.xpi?src=dp-btn-primary';
+			}
+		</script>
 	</body>
 </html>

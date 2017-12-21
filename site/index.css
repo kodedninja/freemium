@@ -1,0 +1,15 @@
+body {
+	font-family: 'Quattrocento', serif;
+}
+
+.title {
+	font-size: 8rem;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.button {
+	background: #eee;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
