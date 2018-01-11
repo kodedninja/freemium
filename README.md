@@ -1,4 +1,4 @@
-<img src="site/icons/96x96.png">
+<img src="plugin/icons/96x96.png">
 
 # freemium
 Tiny browser addon that removes premium articles from Medium
